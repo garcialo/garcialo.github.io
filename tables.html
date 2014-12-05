@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>HTML 101: Tables</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<main role="main">
+		<h1>HTML 101<br>Tables</h1>
+		<h2>What Are Tables For?</h2>
+		<ul>
+			<li>Displaying <strong>tabular</strong> data
+			<li><strong>Not</strong> for layout
+		</ul>
+		<h2>Anatomy of a <code>table</code></h2>
+
+		<code>
+		&lt;table&gt;<br>
+		&lt;caption&gt;Members of Luis's One-Man-Band&lt;/caption&gt;<br>
+		<br>
+			&lt;tr&gt;<br>
+				&lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;<br>
+				&lt;th scope=&quot;col&quot;&gt;Instrument&lt;/th&gt;<br>
+			&lt;/tr&gt;<br>
+		<br>
+			&lt;tr&gt;<br>
+				&lt;th scope=&quot;row&quot;&gt;Luis&lt;/th&gt;<br>
+				&lt;td&gt;All of them&lt;/td&gt;<br>
+			&lt;/tr&gt;<br>
+		<br>
+		&lt;/table&gt;<br>
+		</code>
+	
+		<ul>
+			<li><code>table</code> Element
+			<li><code>caption</code> Element
+			<li><code>tr</code> Element: row of cells
+			<li><code>th</code> Element: header cell
+			<li><code>td</code> Element: data cell
+			<li><code>scope</code> Attribute
+		</ul>
+	
+	</main>
+	
+	<nav role="navigation">
+		<ul>
+			<li><a href="">Back</a>
+			<li><a href="">Forward</a>
+		</ul>
+	</nav>
+</body>
+
+</html>
