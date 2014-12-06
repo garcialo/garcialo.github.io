@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>HTML 101: Forms</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<main role="main">
+		<h1>HTML 101<br>Forms (continue)</h1>
+		<h2>Using <code>label</code>s</h2>
+		<h3>Example <code>label</code></h3>
+		
+		<label for="firstName">First Name</label>
+		<input id="firstName" type="text" name="firstName">
+		
+		<h3>Code for Example <code>label</code></h3>
+		<code>
+		&lt;label for=&quot;firstName&quot;&gt;First Name&lt;/label&gt;<br>
+		&lt;input id=&quot;firstName&quot; type=&quot;text&quot; name=&quot;firstName&quot;&gt;
+		<code>
+		
+		<h2>Using <code>fieldset</code>s</h2>
+		<h3>Example <code>fieldset</code></h3>
+		
+		<fieldset>
+		  <legend>Primary Cardholder</legend>
+		  <label for="primaryFirstName">First Name</label>
+		  <input id="primaryFirstName" type="text" name="primaryFirstName">
+		</fieldset>
+		  
+		<fieldset>
+		  <legend>Secondary Cardholder</legend>
+		  <label for="secondaryFirstName">First Name</label>
+		  <input id="secondaryFirstName" type="text" name="secondaryFirstName">
+		</fieldset>
+		
+		<h3>Code for Example <code>fieldset</code></h3>
+		&lt;fieldset&gt;<br>
+		  &lt;legend&gt;rimary Cardholder&lt;/legend&gt;<br>
+		  &lt;label for=&quot;primaryFirstName&quot;&gt;First Name&lt;/label&gt;<br>
+		  &lt;input id=&quot;primaryFirstName&quot; type=&quot;text&quot; name=&quot;primaryFirstName&quot;&gt;<br>
+		&lt;/fieldset&gt;<br>
+		<br>
+		&lt;fieldset&gt;<br>
+		  &lt;legend&gt;Secondary Cardholder&lt;/legend&gt;<br>
+		  &lt;label for=&quot;secondaryFirstName&quot;&gt;First Name&lt;/label&gt;<br>
+		  &lt;input id=&quot;secondaryFirstName&quot; type=&quot;text&quot; name=&quot;secondaryFirstName&quot;&gt;<br>
+		&lt;/fieldset&gt;
+	</main>
+	
+	<nav role="navigation">
+		<ul>
+			<li><a href="forms2.html">Back</a>
+			<li><a href="forms4.html">Forward</a>
+		</ul>
+	</nav>
+</body>
+
+</html>
