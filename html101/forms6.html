@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>HTML 101: Forms</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<main role="main">
+		<h1>HTML 101<br>Forms (continued)</h1>
+		<h2>Using <code>checkbox</code>es</h2>
+		<ul>
+		  <li>Use <code>label</code>s
+		  <li>Use <code>fieldset</code>s
+		</ul>
+		
+		<h3>Example <code>checkbox</code>es</h3>
+		<fieldset>
+		<legend>What do you do? (select all that apply)</legend>
+		<input id="a11y" type="checkbox" name="whatDoYouDo" value="a11y">
+		<label for="a11y">Accessibility</label>
+		<input id="devSupport" type="checkbox" name="whatDoYouDo" value="devSupport">
+		<label for="devSupport">Developer Support</label>
+		<input id="training" type="checkbox" name="whatDoYouDo" value="training">
+		<label for="training">Training</label>
+		<input id="design" type="checkbox" name="whatDoYouDo" value="design">
+		<label for="design">Design</label>
+		</fieldset>
+		
+		<h3>Code for Example <code>checkbox</code>es</h3>
+		<code>
+		&lt;fieldset&gt;
+		&lt;legend&gt;What do you do? (select all that apply)&lt;/legend&gt;
+		&lt;input id=&quot;a11y&quot; type=&quot;checkbox&quot; name=&quot;whatDoYouDo&quot; value=&quot;a11y&quot;&gt;
+		&lt;label for=&quot;a11y&quot;&gt;Accessibility&lt;/label&gt;
+		&lt;input id=&quot;devSupport&quot; type=&quot;checkbox&quot; name=&quot;whatDoYouDo&quot; value=&quot;devSupport&quot;&gt;
+		&lt;label for=&quot;devSupport&quot;&gt;Developer Support&lt;/label&gt;
+		&lt;input id=&quot;training&quot; type=&quot;checkbox&quot; name=&quot;whatDoYouDo&quot; value=&quot;training&quot;&gt;
+		&lt;label for=&quot;training&quot;&gt;Training&lt;/label&gt;
+		&lt;input id=&quot;design&quot; type=&quot;checkbox&quot; name=&quot;whatDoYouDo&quot; value=&quot;design&quot;&gt;
+		&lt;label for=&quot;design&quot;&gt;Design&lt;/label&gt;
+		&lt;/fieldset&gt;
+		</code>
+	</main>
+	
+	<nav role="navigation">
+		<ul>
+			<li><a href="forms5.html">Back</a>
+			<li><a href="qa.html">Forward</a>
+		</ul>
+	</nav>
+</body>
+
+</html>
