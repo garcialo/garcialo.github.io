@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>ARIA Landmark Roles and You!: Landmark Roles</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<main role="main">
+		<h1>Landmark Roles</h1>
+		<dl>
+			<dt><code>application</code>
+				<dd>Avoid unless your app is app enough &#40;i.e. Gmail, Google Docs, etc.&#41;
+			<dt><code>banner</code>
+				<dd>Page Header
+			<dt><code>complementary</code>
+				<dd>Page Sidebar
+			<dt><code>contentinfo</code>
+				<dd>Footer
+			<dt><code>form</code>
+				<dd>Forms
+			<dt><code>main</code>
+				<dd>Main page content
+				<dd>Stop using <code>&lt;div id="main"&gt;</code>
+				<dd>Use <code>&lt;main role="main"&gt;</code> instead
+			<dt><code>navigation</code>
+				<dd>Page or other navigation
+				<dd>Stop using <code>&lt;div id="nav"&gt;</code>
+				<dd>Use <code>&lt;nav role="navigation"&gt;</code> instead
+			<dt><code>search</code>
+				<dd>Search
+		</dl>
+
+		<h2>Landmark Roles in Action</h2>
+		<p><a href="http://www.html5accessibility.com/tests/roles-land.html">Landmarks Example Page</a></p>
+	</main>
+
+	<nav role="navigation">
+		<ul>
+			<li><a href="ariaattributes.html">Back</a>
+			<li><a href="qa.html">Forward</a>
+		</ul>
+	</nav>
+</body>
+
+</html>
