@@ -1,0 +1,34 @@
+---
+layout: talk
+back: contrast
+title: Accessibility 101&#58; Structure
+next: altText
+---
+
+	<main>
+		<h1>Accessibility 101<br>Structure</h1>
+		<h2>Use Headings</h2>
+		<ul>
+			<li>Outline areas of content
+			<li>Nest headings properly
+			<li><strong>Don't</strong> use headings because of how they look
+			<li><strong>Don't</strong> create "headings" by styling text
+		</ul>
+		<h2>ARIA Landmark Roles</h2>
+		<ul>
+			<li>Every part of the page should be inside a landmark
+			<li>Using HTML5 gets you some of this for free
+				<ul>
+					<li><code>header</code> for <code>role="banner"</code>
+					<li><code>main</code> for <code>role="main"</code>
+					<li><code>nav</code> for <code>role="navigation"</code>
+					<li><code>footer</code> for <code>role="contentinfo"</code>
+					<li><code>aside</code> for <code>role="complementary"</code>
+				</ul>
+		</ul>
+		<h2>Screen Reader Time!</h2>
+		<ul>
+			<li>H navigates by Headings
+			<li>D navigates by Landmark Roles
+		</ul>
+	</main>

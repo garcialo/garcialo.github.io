@@ -1,0 +1,41 @@
+---
+layout: talk
+back: forms1
+title: Accessibility 101&#58; Forms (continued)
+next: assessmentTime
+---
+
+	<main>
+		<h1>Accessibility 101<br>Forms (continued)</h1>
+		<h2>Using <code>fieldset</code>s</h2>
+		<h3>Example <code>fieldset</code></h3>
+		
+		<fieldset>
+		  <legend>Primary Cardholder</legend>
+		  <label for="primaryFirstName">First Name</label>
+		  <input id="primaryFirstName" type="text" name="primaryFirstName">
+		</fieldset>
+		  <br>
+		<fieldset>
+		  <legend>Secondary Cardholder</legend>
+		  <label for="secondaryFirstName">First Name</label>
+		  <input id="secondaryFirstName" type="text" name="secondaryFirstName">
+		</fieldset>
+		
+		<h3>Code for Example <code>fieldset</code></h3>
+		<p>
+		<code>
+		<b>&lt;fieldset&gt;</b><br>
+		  <b>&lt;legend&gt;</b>Primary Cardholder&lt;<b>/legend&gt;</b><br>
+		  &lt;label for=&quot;primaryFirstName&quot;&gt;First Name&lt;/label&gt;<br>
+		  &lt;input id=&quot;primaryFirstName&quot; type=&quot;text&quot; name=&quot;primaryFirstName&quot;&gt;<br>
+		<b>&lt;/fieldset&gt;<br></b>
+		<br>
+		<b>&lt;fieldset&gt;<br></b>
+		  <b>&lt;legend&gt;</b>Secondary Cardholder<b>&lt;legend&gt;</b><br>
+		  &lt;label for=&quot;secondaryFirstName&quot;&gt;First Name&lt;/label&gt;<br>
+		  &lt;input id=&quot;secondaryFirstName&quot; type=&quot;text&quot; name=&quot;secondaryFirstName&quot;&gt;<br>
+		<b>&lt;/fieldset&gt;</b>
+		</code>
+		</p>
+	</main>
