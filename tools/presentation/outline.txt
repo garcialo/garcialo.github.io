@@ -1,0 +1,9 @@
+Summary
+* I use tools every day for my work, but don't really look at the tools themselves
+* gave a presentation at the Accessibility Meetup in Ausitn - meetup.com/a11yATX - on this topic
+* don't have as much time now as I did then, so let's get started
+
+Agenda
+1 Tools Overview
+2 Advantages / Disadvantages
+3 Comparison Results

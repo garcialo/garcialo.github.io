@@ -1,0 +1,81 @@
+---
+layout: talk
+back: overview
+title: Accessibility Tools Presentation&#58; HTML Codesniffer Overview
+next: devtools
+---
+
+	<main>
+		<h1>Accessibility Tools Presentation<br>HTML Codesniffer Overview</h1>
+		<h2>Feature Table</h2>
+			<table>
+				<tr>
+					<td></td>
+					<th scope="col">Open Source</th>
+					<th scope="col">Issue<br>Explanation</th>
+					<th scope="col">Fix<br>Suggestion</th>
+					<th scope="col">Check Pages<br>Behind Login</th>
+					<th scope="col">Visual<br>Indicator</th>
+					<th scope="col">Custom Check <br>(Section 508, WCAG AA, etc.)</th>
+					<th scope="col">Total Number of Checks</th>
+					<th scope="col">Number of WCAG AA Checks</th>
+				</tr>
+				<tr>
+					<th scope="row">HTML Codesniffer</th>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+			</table>
+		<h2>Luis's Take</h2>
+			<ul>
+				<li>Pretty interface
+				<li>UI is pointer-centric
+				<li>UI limits how much information it can provide
+				<li>Consistent results between Chrome and Firefox
+				<li>Doesn't work on some pages (ex. Twitter / Facebook)
+				<li>Recommends fixes for poor contrast!
+				<li>A lot of noise
+					<ul>
+						<li>Not always the best recommendation
+					</ul>
+			</ul>
+		<h2>WCAG 2 AA Check (9/1/2015)</h2>
+		<h3>squiz.net</h3>
+			<ul>
+				<li>0 Errors on Chrome
+				<li>1 Error on Firefox - Color Contrast issue. #FFFFFF on #3399FF
+				<li>Suggests changing background to 1076DC (great recommendation)
+				<li>Interestingly, the same color issues exists on Chrome. I have no idea why it wasn't caught.
+				<li>312 Warnings on Chrome
+				<li>301 Warnings on Firefox
+			</ul>
+		<h3>google.com</h3>
+			<ul>
+				<li>9 Errors on Chrome
+				<li>11 Errors on Firefox
+				<li>19 Warnings on Chrome
+				<li>24 Warnings on Firefox
+			</ul>
+		<h3>deque.com</h3>
+			<ul>
+				<li>7 Errors on both Chrome and Firefox
+				<li>29 Warnings on both Chrome and Firefox
+			</ul>
+		<h3>webaim.org</h3>
+			<ul>
+				<li>1 Error on both Chrome and Firefox
+				<li>WebAIM logo thrown as error. It's a false positive. The accessible name for the image comes from the images alt text, which HTML Codesniffer isn't catching.
+				<li>26 Warnings on both Chrome and Firefox
+			</ul>
+		<h3>tenon.io</h3>
+			<ul>
+				<li>30 Errors on both Chrome and Firefox
+				<li>17 Warnings on both Chrome and Firefox
+			</ul>
+	</main>

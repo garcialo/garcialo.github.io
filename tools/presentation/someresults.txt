@@ -1,0 +1,116 @@
+WAVE
+-Web Tool
+-Chrome Add On
+-Firefox Add On (DON'T USE)
+	* https://twitter.com/jared_w_smith/status/618102593529614336
+
+aXe
+-Chrome Add On
+-Firefox Add On
+
+Web DevTools
+-Chrome Add On
+
+HTML Code Sniffer
+-Bookmarklet
+
+Tenon
+-Web Tool
+
+WAVE (Excluding WAVE Toolbar)
+
++ Free
++ Page behind login (for Browser Add Ons)
++ On-page Issue Reporting
++ Issue Explanation
++ Remediation Suggestions
++ Customizable Check
+- On-page Issue Reporting
+
+aXe
++ Free
++ Open Source
+	* https://github.com/dequelabs/axe-core
++ Pages behind login
++ On-page Issue Reporting (Firefox)
++ Issue Explanation
++ Remediation Suggestions
+
+Web DevTools
++ Free
++ Open Source
+	* https://github.com/GoogleChrome/accessibility-developer-tools
++ Authenticated pages
+- Chrome-only
+
+HTML Code Sniffer
++ Free
++ Open Source
+	* https://github.com/squizlabs/HTML_CodeSniffer
++ Authenticated pages
++ On-page Issue Reporting
+- Doesn't work on some sites
+
+
+
+
+Google.com
+	WAVE Online
+		3 Errors
+		4 Alerts
+		1 Features
+		3 Structural Eleemnts
+		30 HTML5 and ARIA
+		1 Constrast Errors
+	WAVE Chrome
+		6 Errors
+		4 Alerts
+		1 Alerts
+		3 Structural Eleemnts
+		37 HTML5 and ARIA
+		1 Constrast Errors
+	aXe Chrome
+		2 Critical
+	aXe Firefox
+		2 Critical
+	Web DevTools
+		3 Severe
+		13 Warning
+		5 Not Applicable
+		13 Passing
+	HTML Code Sniffer
+		9 Errors
+		19 Warnings
+		68 Notices
+
+Facebook.com
+	WAVE Online
+		7 Errors
+		18 Alerts
+		11 Features
+		7 Structural Elements
+		25 HTML5 and ARIA
+		0 Contrast Errors
+	WAVE Chrome
+		6 Errors
+		17 Alerts
+		11 Features
+		7 Structural Elements
+		30 HTML5 and ARIA
+		10 Contrast Errors
+	aXe Chrome
+		14 Violations
+			10 Critical
+			4 Serious
+	aXe Firefox
+		16 Violations
+			10 Critical
+			5 Serious
+			1 Moderate
+	aXe Differences
+		1 Serious - iFrame that does not show up in Chrome
+	HTML Code Sniffer
+	
+WAVE Chrome
+	Google - 7 Errors, 5 Alerts
+	Facebook - 121 Errors
