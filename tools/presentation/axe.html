@@ -7,7 +7,15 @@ next: wave
 
 	<main>
 		<h1>Accessibility Tools Presentation<br>aXe Overview</h1>
-		<p>NOTE: I work for Deque, the creator of aXe. While I tried to stay objective, there is always the possibility for a conflict of interest.</p>
+		<h2>Details</h2>
+			<ul>
+				<li>Disclaimer: I work for Deque
+				<li><a href="https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/">Get aXe for Firefox</a>
+				<li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">Get aXe for Chrome</a>
+				<li><a href="https://dequeuniversity.com/rules/axe/1.1">Rules List</a>
+				<li>Developer: <a href="http://www.deque.com/">Deque Systems, Inc.</a>
+				<li><a href="https://github.com/dequelabs/axe-firefox-devtools">Source for aXe for Firefox</a>
+			</ul>
 		<h2>Feature Table</h2>
 			<table>
 				<tr>
@@ -18,55 +26,38 @@ next: wave
 					<th scope="col">Check Pages<br>Behind Login</th>
 					<th scope="col">Visual<br>Indicator</th>
 					<th scope="col">Custom Check <br>(Section 508, WCAG AA, etc.)</th>
-					<th scope="col">Exportable<br>Report</th>
+					<th scope="col">Report<br>Shareability</th>
 					<th scope="col">Total Number of Checks</th>
-					<th scope="col">Number of WCAG AA Checks</th>
 				</tr>
 				<tr>
-					<th scope="row">aXe</th>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
+					<th scope="row">aXe for Firefox</th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td>No</td>
+					<td>45</td>
+				</tr>
+				<tr>
+					<th scope="row">aXe for Chrome</th>
+					<td>Not Quite</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td>No</td>
+					<td>No</td>
+					<td>45</td>
 				</tr>
 			</table>
-		<h2>Luis's Take</h2>
+		<h2>The Skinny</h2>
 			<ul>
 				<li>Claims "No False Positives"
-				<li>Consistent between Chrome and Firefox
-				<li>No way to specify criteria by which to check
+				<li>Clunky UI
+				<li>Can't customize checking
 				<li>Could not get to work in Firefox Private Browsing Mode
-				<li>Still early in development
-				<li>Listen to a screen reader pronounce aXe (uh zee)
-			</ul>
-		<h2>WCAG 2 AA Check (9/1/2015)</h2>
-		<h3>squiz.net</h3>
-			<ul>
-				<li>6 Critical on both
-				<li>1 Serious on both
-			</ul>
-		<h3>google.com</h3>
-			<ul>
-				<li>2 Critical on both
-			</ul>
-		<h3>deque.com</h3>
-			<ul>
-				<li>0 Issues on both
-			</ul>
-		<h3>webaim.org</h3>
-			<ul>
-				<li>0 Issues on both
-			</ul>
-		<h3>tenon.io</h3>
-			<ul>
-				<li>26 Critical on Chrome
-				<li>25 Critical on Firefox
-				<li>1 Serious on Chrome
-				<li>2 Issues related to the video. 1 Critical for no track elements; 1 Serious about for audio desription.
-				Firefox version doesn't identify these as issues.
+				<li>Listen to a screen reader pronounce aXe
 			</ul>
 	</main>
