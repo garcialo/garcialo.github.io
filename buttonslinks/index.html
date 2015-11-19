@@ -1,0 +1,73 @@
+---
+layout: talkSingle
+title: Buttons, Links, DIVs, and SPANs
+---
+
+	<main>
+		<h1>Buttons, Links, DIVs, and SPANs</h1>
+			<table style="undefined;table-layout: fixed; width: 1197px">
+				<tr>
+					<th></th>
+					<th scope="col">&lt;button&gt;</th>
+					<th scope="col">&lt;input type="button"&gt;</th>
+					<th scope="col">&lt;a&gt; (hyperlink)</th>
+					<th scope="col">div/span used as button or link</th>
+				</tr>
+				<tr>
+					<th scope="row">In Tab Order?</th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes (if href attribute defined)</td>
+					<td>Need to add tabindex="0"</td>
+				</tr>
+				<tr>
+					<th scope="row">Enter to Activate?</th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Needs JavaScript</td>
+				</tr>
+				<tr>
+					<th scope="row">Space Bar to Activate?</th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Not Intended</td>
+					<td>Needs JavaScript, but often ignored</td>
+				</tr>
+				<tr>
+					<th scope="row">Accessible Name?</th>
+					<td>Yes (from element value)</td>
+					<td>Yes</td>
+					<td>Yes (from element value)</td>
+					<td>No. Needs role attribute, but often ignored</td>
+				</tr>
+				<tr>
+					<th scope="row">Link Displayed in the Status Bar?</th>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>Yes</td>
+					<td>Don't think this can be done.</td>
+				</tr>
+				<tr>
+					<th scope="row">Left Click to Activate?</th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Needs JavaScript</td>
+				</tr>
+				<tr>
+					<th scope="row">Right Click for specific options in Context Menu? (i.e. Open in New Tab/Window)</th>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>Yes</td>
+					<td>Maybe possible with JavaScript? Have never seen this done</td>
+				</tr>
+				<tr>
+					<th scope="row">Middle Click for New Tab?</th>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>Yes</td>
+					<td>Needs JavaScript. Have never seen this done</td>
+				</tr>
+			</table>
+	</main>
