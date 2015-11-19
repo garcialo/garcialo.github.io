@@ -14,12 +14,16 @@ body {
 
 nav {
    text-align: center;
-   margin-top: 40px 0;
+   margin: 40px 0;
 }
 
 main {
    width: 75%;
    margin: 0 auto;
+}
+
+h1,h2 {
+	text-align: center;
 }
 
 a {
@@ -41,7 +45,7 @@ nav ul {
 	display: inline;
  }
  
- nav ul li {
+nav ul li {
 	margin-left: 0;
 	padding: 3px 15px;
 	border-left: 1px solid #000;
@@ -49,14 +53,14 @@ nav ul {
 	display: inline;
  }
  
- nav ul li:first-of-type {
+nav ul li:first-of-type {
 	margin-left: 0;
 	border-left: none;
 	list-style: none;
 	display: inline;
  }
  
- table {
+table {
 	 margin-bottom: 20px;
 	 border: 1px solid #e6e6e6;
 	 border-collapse: separate;
