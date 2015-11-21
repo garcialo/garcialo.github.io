@@ -1,6 +1,6 @@
 ---
 layout: talk
-back: devtools
+back: ainspector
 title: Accessibility Tools Presentation&#58; aXe Overview
 next: wave
 ---
@@ -22,13 +22,13 @@ next: wave
 				<tr>
 					<td></td>
 					<th scope="col">Open Source</th>
+					<th scope="col">Accessible</th>
 					<th scope="col">Issue<br>Explanation</th>
 					<th scope="col">Fix<br>Suggestion</th>
 					<th scope="col">Check Pages<br>Behind Login</th>
 					<th scope="col">Visual<br>Indicator</th>
 					<th scope="col">Custom Check <br>(Section 508, WCAG AA, etc.)</th>
 					<th scope="col">Report<br>Shareability</th>
-					<th scope="col">Total Number of Checks</th>
 				</tr>
 				<tr>
 					<th scope="row">aXe for Firefox</th>
@@ -37,9 +37,9 @@ next: wave
 					<td>Yes</td>
 					<td>Yes</td>
 					<td>Yes</td>
+					<td>Yes</td>
 					<td>No</td>
 					<td>No</td>
-					<td>45</td>
 				</tr>
 				<tr>
 					<th scope="row">aXe for Chrome</th>
@@ -47,10 +47,10 @@ next: wave
 					<td>Yes</td>
 					<td>Yes</td>
 					<td>Yes</td>
+					<td>Yes</td>
 					<td>No</td>
 					<td>No</td>
 					<td>No</td>
-					<td>45</td>
 				</tr>
 			</table>
 		<h3>The Skinny</h3>
@@ -58,7 +58,7 @@ next: wave
 				<li>Claims "No False Positives"
 				<li>Clunky UI
 				<li>Can't customize checking
-				<li>Could not get to work in Firefox Private Browsing Mode
+				<li><a href="https://github.com/dequelabs/axe-firefox-devtools/issues/32">Could not get to work in Firefox Private Browsing mode</a>
 				<li>Listen to a screen reader pronounce aXe
 			</ul>
 	</main>
