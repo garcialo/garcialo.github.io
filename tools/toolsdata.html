@@ -11,6 +11,7 @@ title: Automated Tools Data
 					<li><a href="#uniquechecks">Unique WCAG Checks</a>
 					<li><a href="#uniquegaps">Unique WCAG Gaps</a>
 					<li><a href="#bypercentage">WCAG Guideline Coverage by Percentage</a>
+					<li><a href="#a11yNotImages">Images: a11yNot Coverage Table</a>
 				</ul>
 			<hr>
 			<h2 id="byguideline">WCAG Guideline Coverage by Guideline</h2>
@@ -684,4 +685,42 @@ title: Automated Tools Data
 					<td>42.6%</td>
 				  </tr>
 				</table>
+
+			<hr>
+			<h2 id="a11yNotImages">Images: a11yNot Coverage Table</h2>
+				<table>
+				  <tr>
+					<th scope="col">Success Criterion</th>
+					<th scope="col">Test to fail</th>
+					<th scope="col">Links to Applicable a11yNots</th>
+				  </tr>
+				  <tr>
+					<th scope="row">1.1.1</th>
+					<td>IMG element does not have an ALT attribute.</td>
+					<td>F65</td>
+				  </tr>
+				  <tr>
+					<th scope="row">1.1.1</th>
+					<td>Using filename as alternative text.</td>
+					<td>F30</td>
+				  </tr>
+				  <tr>
+					<th scope="row">1.2.8</th>
+					<td>Alternative text for media not labeled as an alternative</td>
+					<td>F74</td>
+				  </tr>
+				  <tr>
+					<th scope="row">1.4.5</th>
+					<td>Images of text blah blah</td>
+					<td>F69, F80</td>
+				  </tr>
+				  <tr>
+					<th scope="row">1.4.9</th>
+					<td>Images of text but without exceptions, because AAA!</td>
+					<td>F24, F88</td>
+				  </tr>
+				</table>
+				
+				
+				
 	</main>
