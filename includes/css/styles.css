@@ -63,9 +63,6 @@ nav ul li:first-of-type {
 table {
 	 margin-bottom: 20px;
 	 border: 1px solid #e6e6e6;
-	 border-collapse: separate;
-	 border-left: 0;
-	 border-spacing: 0;	 
  }
 
 tr:nth-of-type(even) {
@@ -94,7 +91,15 @@ td {
 		margin: 0 auto;
 	}
 	
-	table, thead, tbody, th, td, tr {
+	h3 {
+		margin-bottom: 0px;
+	}
+	
+	ul {
+		margin-top: 0px;
+	}
+	
+	table, caption, thead, tbody, th, td, tr {
 		display: block;
 	}
 	
