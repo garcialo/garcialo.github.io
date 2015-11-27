@@ -67,7 +67,11 @@ table {
 	 border-left: 0;
 	 border-spacing: 0;	 
  }
- 
+
+tr:nth-of-type(even) {
+	background: #BDE3FB;
+}
+
 td, th {
 	border-left: 1px solid #e6e6e6;
 	padding: 10px;
@@ -79,4 +83,72 @@ td, th {
 
 td {
 	text-align: center;
+}
+@media (orientation:portrait) {
+	body {
+		font-size: 1.5em;
+	}
+	
+	main {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	
+	tr:first-of-type {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr {
+		border: 1px solid #ccc;
+	}
+	
+	td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+	
+	td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(1):before { content: "Open Source"; }
+	td:nth-of-type(2):before { content: "Accessible"; }
+	td:nth-of-type(3):before { content: "Issue Explanation"; }
+	td:nth-of-type(4):before { content: "Fix Suggestions"; }
+	td:nth-of-type(5):before { content: "Check Pages Behind Login"; }
+	td:nth-of-type(6):before { content: "Visual Indicator"; }
+	td:nth-of-type(7):before { content: "Custom Check"; }
+	td:nth-of-type(8):before { content: "Report Shareability"; }
+}
+@media (min-aspect-ratio: 5/4) and (max-aspect-ratio: 5/3) {
+	body {
+		font-size: 1.3em;
+	}
+	
+	main {
+		width: 98%;
+		margin: 0 auto;
+	}
+
+	h3 {
+		margin-bottom: 0px;
+	}
+	
+	ul {
+		margin-top: 0px;
+	}
+	
 }
