@@ -26,6 +26,14 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+  margin-bottom: 8px;
+}
+
+li {
+  line-height: 1.6
+}
+
 a {
 	color: #204090;
 }
