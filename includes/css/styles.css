@@ -38,6 +38,10 @@ a {
 	color: #204090;
 }
 
+dt {
+	font-weight: bold;
+}
+
 a:focus, a:hover {
 	outline: none;
 	background-color: #005010;
