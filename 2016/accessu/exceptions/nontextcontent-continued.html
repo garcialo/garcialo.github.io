@@ -1,21 +1,29 @@
 ---
 layout: talk
-back: NonTextContent
+back: nontextcontent
 title: 1.1.1 Non-text Content Continued&#58; Exploring Exceptions in WCAG Success Criteria
 next: mediaalternativeexception
 ---
 
 	<main>
 		<h1>Exploring Exceptions in WCAG Success Criteria</h1>
-		<h2><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#sensoryexpdef">1.1.1 Non-text Content Continued</a></h2>
+		<h2><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#sensoryexpdef">1.1.1 Non-text Content (A) Continued</a></h2>
 		<h3>Exceptions to Non-Text Content</h3>
-		<dl>
-			<dt>Controls, Inputs<dd>should have NAMES instead
-			<dt>Time-based Media<dd>text alternative doesn't need to serve an EQUIVALENT PURPOSE; instead it just needs to provide a descriptive identification of the media
-			<dt>Test<dd>text that a program can use to identify a component; can be hidden
-			<dt>Test<dd>If the alt text would invalidate the purpose of the test, then the text alternative should either describe the purpose.
-			<dt>Sensory<dd>If you have content that creates a SPECIFIC SENSORY EXPERIENCE then alt text needs to provide a descriptive identification of the content.
-			<dt>CAPTCHA<dd>alt text must say that its a CAPTCHA and alternative CAPTCHAS for different senses must be provided
-			<dt>Decoration, Formatting, Invisible<dd>If the content is purely decorative, used for visual formatting, or not presented to users, it must be ignored by assistive technology.
-		</dl>
+			<p>Less "exceptions" and more slight variations of alternative text.
+			<dl>
+				<dt>Controls, Inputs<dd>should have NAMES instead
+				<dt>Time-based Media<dd>text alternative doesn't need to serve an <strong>equivalent purpose</strong>; instead it just needs to provide a descriptive identification of the media. See Media-related Success Criteria for more information.
+				<dt>Test<dd>If the alt text would invalidate the purpose of the test, then the text alternative should describe the purpose.
+				<dt>Sensory<dd>If you have content that creates a <strong>specific sensory experience</strong> then alt text needs to provide a descriptive identification of the content.
+				<dt>CAPTCHA<dd>alt text must say that its a CAPTCHA and alternative CAPTCHAS for different senses must be provided
+				<dt>Decoration, Formatting, Invisible<dd>If the content is purely decorative, used for visual formatting, or not presented to users, it must be ignored by assistive technology.
+			</dl>
+		<h4>Examples</h4>
+			<ul>
+				<li>Sensory test (hearing, sight, etc.)
+				<li>Spelling test
+				<li>Symphony performance
+				<li>Flute solo
+				<li>Visual art
+			</ul>
 	</main>
