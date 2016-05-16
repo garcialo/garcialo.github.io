@@ -1,0 +1,18 @@
+---
+layout: talk
+title: Contrast Exceptions&#58; How I Learned to Stop Worrying and Ignore WCAG
+---
+
+	<main>
+		<h1>How I Learned to Stop Worrying and Ignore WCAG</h1>
+		<h2><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color (A)</a></h2>
+		<h3>Summary of Contrast Success Criteria</h3>
+			<p>Don't use color alone to tell the difference between things
+		<h2>Link Underline Exception</h2>
+			<h3>Technique G183 allows removal of visual indicator if the contrast with surrounding text is at least 3 to 1.
+		<h3>Examples</h3>
+			<h4>Failing Example</h4>
+				<p style="color:#000000;">Somewhere in this <a style="color:#000000; text-decoration:none; background-color:white;" onfocus="this.style.textDecoration = 'underline'" onmouseover="this.style.textDecoration = 'underline'" onblur="this.style.textDecoration = 'none'" onmouseout="this.style.textDecoration = 'none'" href="">sentence</a> is a link that fails 1.4.1.
+			<h4>Passing Example</h4>
+				<p style="color:#000000;">Somewhere in this <a style="color:#665367; text-decoration:none; background-color:white;" onfocus="this.style.textDecoration = 'underline'" onmouseover="this.style.textDecoration = 'underline'" onblur="this.style.textDecoration = 'none'" onmouseout="this.style.textDecoration = 'none'" href="">sentence</a> is a link that passes 1.4.1.
+	</main>
