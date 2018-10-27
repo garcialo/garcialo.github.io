@@ -30,6 +30,16 @@ h2 {
   margin-bottom: 8px;
 }
 
+h1.slideTitle {
+  margin-top: 8px;
+  text-align: left;
+}
+
+h2.presentationTitleBeforeSlideTitle {
+  margin-bottom: 8px;
+  font-size: 80%;
+}
+
 li {
   line-height: 1.6
 }
