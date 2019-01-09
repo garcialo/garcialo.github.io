@@ -1,0 +1,146 @@
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+html, body, form, fieldset, table {
+	font: 100% 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin-left: 1em;
+	color: #333;
+	background: #fff;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+footer, nav {
+   text-align: center;
+   margin: 40px 0;
+}
+
+main {
+   width: 60%;
+   margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+h1.slideTitle {
+  margin-top: 8px;
+  text-align: left;
+}
+
+h2.presentationTitleBeforeSlideTitle {
+  margin-bottom: 8px;
+  font-size: 80%;
+}
+
+li {
+  line-height: 1.6
+}
+
+a {
+	color: #204090;
+}
+
+dt {
+	font-weight: bold;
+}
+
+a:focus, a:hover {
+	outline: none;
+	background-color: #005010;
+	color: #ffd;
+	border: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+nav ul {
+	padding: 5px;
+	border: 1px solid #000;
+	margin-bottom: 25px;
+	margin-left: 0;
+	display: inline;
+ }
+ 
+nav ul li {
+	margin-left: 0;
+	padding: 3px 15px;
+	border-left: 1px solid #000;
+	list-style: none;
+	display: inline;
+ }
+ 
+nav ul li:first-of-type {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+ }
+ 
+table {
+	 margin-bottom: 20px;
+	 border: 1px solid #e6e6e6;
+ }
+
+tr:nth-of-type(even) {
+	background: #BDE3FB;
+}
+
+td, th {
+	border-left: 1px solid #e6e6e6;
+	padding: 10px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #e6e6e6;
+}
+
+td {
+	text-align: center;
+}
+@media (orientation:portrait) {
+	body {
+		font-size: 1.5em;
+	}
+	
+	main {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	h3 {
+		margin-bottom: 0px;
+	}
+	
+	ul {
+		margin-top: 0px;
+	}
+}
+@media (min-aspect-ratio: 5/4) and (max-aspect-ratio: 5/3) {
+	body {
+		font-size: 1.3em;
+	}
+	
+	main {
+		width: 98%;
+		margin: 0 auto;
+	}
+
+	h3 {
+		margin-bottom: 0px;
+	}
+	
+	ul {
+		margin-top: 0px;
+	}
+	
+}

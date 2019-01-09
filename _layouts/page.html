@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+{% if page.talkTitle%}
+{% include talkHead2019.html %}
+{% else %}
 {% include head.html %}
+{% endif %}
 </head>
 
 <body>
