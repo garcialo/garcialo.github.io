@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <title>Content Structure Demo&#58; Accessibility, the Design Handoff, and You!</title>
+  <link rel="stylesheet" href="/includes/css/styles.css">
+  
+  <script>
+    function removeStructure() {
+      document.getElementById('heading1').setAttribute("role", "presentation");
+      document.getElementById('heading2').setAttribute("role", "presentation");
+      document.getElementById('heading3').setAttribute("role", "presentation");
+      document.getElementById('the-ipsums').setAttribute("role", "presentation");
+      document.getElementById('header-element').setAttribute("role", "presentation");
+      document.getElementById('nav-element').setAttribute("role", "presentation");
+      document.getElementById('main-element').setAttribute("role", "presentation");
+      document.getElementById('aside-element').setAttribute("role", "presentation");
+      document.getElementById('footer-element').setAttribute("role", "presentation");
+
+      document.getElementById('status-headings').innerHTML = "No";
+      document.getElementById('status-landmarks').innerHTML = "No";
+    }    
+
+    function addHeadings() {
+      document.getElementById('heading1').removeAttribute("role");
+      document.getElementById('heading2').removeAttribute("role");
+      document.getElementById('heading3').removeAttribute("role");
+      document.getElementById('the-ipsums').removeAttribute("role");
+      
+      document.getElementById('status-headings').innerHTML = "Yes";
+    }
+    
+    function addLandmarks() {
+      document.getElementById('header-element').removeAttribute("role");
+      document.getElementById('nav-element').removeAttribute("role");
+      document.getElementById('main-element').removeAttribute("role");
+      document.getElementById('aside-element').removeAttribute("role");
+      document.getElementById('footer-element').removeAttribute("role");
+      
+      document.getElementById('status-landmarks').innerHTML = "Yes";
+    }  
+  </script>
+</head>
+
+<body>
+<section aria-label="Demo Controls">
+<h2>Structure Status</h2>
+<dl id="status">
+  <dt>Headings:</dt><dd id="status-headings">Yes</dd>
+  <dt>Landmarks:</dt><dd id="status-landmarks">Yes</dd>
+</dl>
+<button onclick="removeStructure()">Remove structure</button>
+<button onclick="addHeadings()">Add Headings</button>
+<button onclick="addLandmarks()">Add Landmarks</button>
+</section>
+  <header id="header-element" style="text-align: center; padding-top: 2em;">
+    <img src="" alt="Awesome Website">
+    <nav id="nav-element">
+      <ul>
+        <li><a href="">Home</a>
+        <li><a href="">About</a>
+        <li><a href="">Contact</a>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-element">
+    <h1 id="heading1" style="text-align: left;">Welcome to the Awesome Ipsums Website</h1>
+    <p>We have a lot of <a href="">great ipsum information</a> and <a href="">resources</a> just for you!</p>
+    <h2 id="heading2">Lorem Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2 id="heading3">Cat Ipsum</h2>
+    <p>I cry and cry and cry unless you pet me, and then maybe i cry just for fun scratch at fleas, meow until belly rubs.</p>
+  </main>
+
+  <aside id="aside-element">
+    <h2 id="the-ipsums">Various Ipsums</h2>
+    <ul>
+      <li><a href="">The Original Lorem Ipsum!</a>
+      <li><a href="">Wookie Ipsum</a>
+      <li><a href="">Cat Ipsum</a>
+      <li><a href="">Ipsum Ipsum</a> (Ipsemption!)
+    </ul>
+  </aside>
+  
+	<footer id="footer-element">
+		<ul>
+			<li><a href="">Copyright 2019 Awesome Ipsums</a>
+      <li><a href="">Privacy</a>
+      <li><a href="">Accessibility</a>
+		</ul>
+	</footer>
+</div>
+</body>
+</html>
