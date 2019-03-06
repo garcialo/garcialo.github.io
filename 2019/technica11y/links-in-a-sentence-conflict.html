@@ -1,0 +1,25 @@
+---
+layout: talk2019
+back: disabled-inputs
+talkTitle: Color Alone, Color Contrast, Color Conflicts
+pageTitle: Links in a sentence (conflict)
+next: milestone-three
+---
+<p style="background-color:white;color:#000000;">This sentence has <a style="color:#204090; text-decoration:none; background-color:white;" onfocus="this.style.textDecoration = 'underline'" onmouseover="this.style.textDecoration = 'underline'" onblur="this.style.textDecoration = 'none'" onmouseout="this.style.textDecoration = 'none'" href="">a link</a> in it</p>
+
+<p>When you have a link that isn't underlined in a sentence, it can pass if it has...
+<ul>
+  <li>3:1 contrast between link and surrounding text
+  <li>4.5 contrast between link and background
+  <li>4.5 contrast between surrounding text and background
+  <li>underline or similar on hover and focus
+</ul>
+<p>Balancing the ratios is a pretty well-known issue.
+
+<p><a href="" style="background-color:#f6eddf; color: #333333;text-decoration:none;" onfocus="this.style.textDecoration = 'underline'" onmouseover="this.style.textDecoration = 'underline'" onblur="this.style.textDecoration = 'none'" onmouseout="this.style.textDecoration = 'none'">But what if...the entire sentence is <span style="color:#204090;">a link</span>?</a></p>
+
+<p>It seems like it would be technically correct because while color is being used, there is no surrounding text for the link.</p>
+
+<p>And what if there is no difference in color between <a href="" style="background-color:#f6eddf;color:#333333; text-decoration:none;" onfocus="this.style.textDecoration = 'underline'" onmouseover="this.style.textDecoration = 'underline'" onblur="this.style.textDecoration = 'none'" onmouseout="this.style.textDecoration = 'none'">a link</a> and the surrounding text?</p>
+
+<p>Can it fail the "Use of Color" Success Criterion if there is no use of color?</p>

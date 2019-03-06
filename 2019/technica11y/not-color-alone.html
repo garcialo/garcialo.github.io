@@ -1,0 +1,54 @@
+---
+layout: talk2019
+back: links-in-a-sentence
+talkTitle: Color Alone, Color Contrast, Color Conflicts
+pageTitle: Not color alone
+next: milestone-one
+---
+  <ul>
+    <li>Text
+    <li>Underline
+    <li>Patterns, shapes. icons
+    <li>Position
+    <li>Brightness (3:1 contrast ratio) with hover/focus
+    <li>Other text styling
+      <ul>
+        <li>Bold
+        <li>Italics
+        <li>Size
+      </ul>
+    </li>
+  </ul>
+  
+  <h2>Examples</h2>
+  <h3>Text for error messages</h3>
+  <label for="error-input" style="color:brown">Last Name - <em>please provide a last name</em></label><br>
+  <input type="text" id="error-input" style="border:1px solid brown;">
+
+  <h3>Underline for link in a sentence</h3>
+  <p>The <a href="">link</a> is underlined!</p>
+  
+  <h3>Bold for link in a sentence</h3>
+  <p>The <a href="" style="text-decoration:none;"><b>link</b></a> is emboldened! However, <strong>if you plan to emphasize</strong> content on your site, then you're back to having an issue.</p>
+
+  <h3>Shapes used in a bar chart</h3>
+  <svg width="300" height="250">
+    <line x1="50" y1="250" x2="50" y2="150" stroke="brown" stroke-width="90" />
+    <rect x="35" y="200" width="30" height="30" style="fill:white" />
+    <line x1="150" y1="250" x2="150" y2="10" stroke="red" stroke-width="90" />
+    <circle cx="150" cy="215" r="15" style="fill:white" />
+    <line x1="250" y1="250" x2="250" y2="100" stroke="green" stroke-width="90" />
+    <polygon points="250,200 235,230 265,230" style="fill:white;" />
+  </svg>
+  <h4>Legend</h4>
+  <ul style="list-style: none;">
+    <li><svg width="10" height="10">
+    <rect width="10" height="10" style="fill:brown" />
+  </svg> Lions 
+    <li><svg width="10" height="10">
+    <circle cx="5" cy="5" r="5" fill="red" />
+  </svg> Tigers 
+    <li><svg width="10" height="10">
+    <polygon points="10,10 0,10 5,0" style="fill:green;" />
+  </svg> Bears
+  </ul>
