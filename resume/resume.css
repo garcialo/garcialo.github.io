@@ -35,8 +35,16 @@ h1, h2, h3, h4 {
   margin-bottom: 0px;
 }
 
+h3 {
+  margin-top: 1em;
+}
+
+h4 span {
+  font-weight: normal;
+}
+
 header, h1 {
-  text-align: center
+  text-align: center;
 }
 
 header ul {
