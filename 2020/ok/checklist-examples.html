@@ -1,0 +1,91 @@
+---
+layout: talk2019
+back: checklist
+talkTitle: Practical Accessibility Testing
+pageTitle: Minimum testing checklist examples
+next: making-it-work
+---
+    <h2>Example: Simple List of Checks</h2>
+    <p>This example relies on Microsoft Accessibility Insights. It could also be a list of checks that link to internal documentation or be a combination of both.</p>
+    <ol>
+      <li>Install MS Accessibility Insights for Web
+      <li>Complete the following checks
+        <ul>
+          <li>1. Automated Checks</li>
+          <li>2. Keyboard - all</li>
+          <li>3. Focus - all</li>
+          <li>6. Repetitive content
+            <ul>
+              <li>1. Bypass blocks
+            </ul>
+          </li>
+          <li>10. Timed events - all
+          <li>16. Sensory
+            <ul>
+              <li>4. Flashing</li>
+            </ul>
+          </li>
+        </ul>
+      <li>Export results and send report to accessibility team
+    </ol>
+      
+    <h2>Example: More information requested and WCAG-based checks</h2>
+      <h3>Site information</h3>
+      <ul>
+        <li>Homepage URL:
+        <li>Point of Contact: 
+        <li>Date completed:
+      </ul>
+      
+      <h4>Site Features</h4>
+      <p>Indicate which features are used on the site:</p>
+      <ul>
+        <li>Forms
+        <li>Embedded media (audio, video, etc.)
+        <li>Complex images (graphs, charts, etc.)
+        <li>Complex animation (auto progressing carousels, etc.)
+        <li>HTML canvas
+      </ul>
+
+      <h3>Automated Testing</h3>
+      <p>For each representative page, resolve all issues found by automated testing tools
+      <ul>
+        <li>AInspector WCAG
+        <li>axe
+        <li>WAVE
+      </ul>
+      
+      <h3>Manual Testing</h3>
+      <p>The A-Team recommends resolving issues found by automated testing before performing manual testing.
+      <p>For each representative page, complete the following checks:
+      <ul>
+        <li>Non-interference Checks
+          <ul>
+            <li>Audio Control</li>
+            <li>No Keyboard Trap</li>
+            <li>Three Flashes or Below Threshold</li>
+            <li>Pause, Stop, Hide</li>
+          </ul>
+        </li>
+        <li>Keyboard Checks
+          <ul>
+            <li>Meaningful Sequence</li>
+            <li>Keyboard</li>
+            <li>Focus Order</li>
+            <li>Focus Visible</li>
+          </ul>
+        </li>
+        <li>Form Checks
+          <ul>
+            <li>Headings and Labels</li>
+            <li>Label in Name</li>
+            <li>Labels or Instructions</li>
+            <li>Name, Role, Value</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Page Requirements</h3>
+      <ul>
+        <li>Footer contains link to accessibility policy
+      </ul>
